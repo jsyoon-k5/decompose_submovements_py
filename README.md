@@ -1,6 +1,6 @@
 # Submovement Decomposer
 
-This repository contains a Python implementation of a submovement decomposition algorithm, migrated from the original MATLAB implementation: https://github.com/sgowda/decompose_submovements
+This repository contains a Python implementation of a submovement decomposition algorithm, migrated from the original MATLAB implementation: https://github.com/sgowda/decompose_submovements. 
 The submovement decomposition technique is widely used in motion analysis to break down complex trajectories into elementary movements, providing insights into the underlying motor control processes.
 
 This Python implementation uses scipy.optimize.minimize for the optimization process. While minimize provides a flexible and efficient framework, there is no exact equivalent of MATLAB's fmincon in Python.
